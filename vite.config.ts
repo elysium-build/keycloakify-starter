@@ -8,7 +8,8 @@ export default defineConfig({
         react(),
         keycloakify({
             accountThemeImplementation: "none",
-            themeName: "Telstra Standard",
+            themeName: "Telstra_Standard",
+            artifactId: "keycloakify-advanced-starter-keycloak-theme",
             keycloakVersionTargets: {
                 "21-and-below": false,
                 "22-and-above": "keycloak-theme-telstra-standard.jar"

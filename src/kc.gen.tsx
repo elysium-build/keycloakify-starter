@@ -10,9 +10,9 @@
 
 import { lazy, Suspense, type ReactNode } from "react";
 
-export type ThemeName = "Telstra Standard";
+export type ThemeName = "Telstra_Standard";
 
-export const themeNames: ThemeName[] = ["Telstra Standard"];
+export const themeNames: ThemeName[] = ["Telstra_Standard"];
 
 export type KcEnvName = never;
 
