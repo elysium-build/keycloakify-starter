@@ -10,9 +10,9 @@
 
 import { lazy, Suspense, type ReactNode } from "react";
 
-export type ThemeName = "keycloakify-starter";
+export type ThemeName = "Telstra Standard";
 
-export const themeNames: ThemeName[] = ["keycloakify-starter"];
+export const themeNames: ThemeName[] = ["Telstra Standard"];
 
 export type KcEnvName = never;
 
