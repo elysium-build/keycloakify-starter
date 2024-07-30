@@ -1,0 +1,88 @@
+
+
+.brand-primary {
+	background: #F5EDE2;
+}
+
+.login-pf body {
+    background: #F5EDE2;
+    background-size: auto;
+}
+
+.brand-secondary { 
+	background: #131A35
+}
+.brand-third { 
+	color: #F4F4F4
+}
+.brand-header-bg { 
+	color: #F3F6FF
+}
+.brand-header-color { 
+	color: #131A35 
+}
+.brand-header-hover {
+    color: #F3F6FF  
+}
+.brand-panel-text body{ 
+	color: #131A35 
+}
+.headerMain  {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background: #fff;
+    overflow-anchor: none;
+    z-index: 15;
+}
+.headerMain-wrapper {
+    position: relative;
+    z-index: 10;
+    max-width: 1360px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.headerMain_container {
+    display: flex;
+}
+
+.containerLogos {
+    position: relative;
+    z-index: 9;
+    display: flex;
+    height: 40px;
+    width: 220px;
+    margin: 19px 20px;
+
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+.containerLogos_title {
+    position: relative;
+    height: 40px;
+    width: 136px;
+    color: #414141;
+    font-family: TelstraText, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    line-height: 40px;
+    margin-left: 35px;
+	
+}
+.containerLogos_logo {
+    border: none;
+    width: 35px;
+    height: 40px;
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: opacity .3s;
+	color: transparent
+}
+
+.pageLogin {
+    border-radius: 20px;
+}
