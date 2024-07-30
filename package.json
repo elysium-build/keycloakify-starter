@@ -1,8 +1,4 @@
 {
-  "keycloakify":{
-    "themeName": "Telstra Standard",
-    "accountThemeImplementation": "none"
-  },
   "name": "telstra-theme",
   "version": "1.0.0",
   "description": "Starter for Keycloakify 10",
