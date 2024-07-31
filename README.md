@@ -6,6 +6,8 @@
 
 This starter is based on Vite. There is also [a Webpack based starter](https://github.com/keycloakify/keycloakify-starter-webpack).
 
+## Caution!!! This is a modified version of V10 for Telstra logos and login theme and is compatible ONLY with epicon customized HomeIdp Plugin for version 25.0.1 build in July 2024. Earlier version of the HomeIdp is not compatible and further versions of the plugin might not be either. 
+
 # Quick start
 
 ```bash
