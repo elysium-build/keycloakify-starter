@@ -64,12 +64,13 @@
 .containerLogos_title {
     position: relative;
     height: 40px;
-    width: 136px;
+    width: 636px;
     color: #414141;
     font-family: TelstraText, Helvetica, Arial, sans-serif;
     font-size: 28px;
     line-height: 40px;
     margin-left: 35px;
+    flex-shrink: 0;
 	
 }
 .containerLogos_logo {

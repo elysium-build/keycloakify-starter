@@ -11,7 +11,49 @@ const kcContextExtension: KcContextExtension = {
         ...kcEnvDefaults
     }
 };
-const kcContextExtensionPerPage: KcContextExtensionPerPage = {};
+const kcContextExtensionPerPage: KcContextExtensionPerPage = {
+    "hidpd-select-idp.ftl": {
+        hidpd: {
+            providers: [
+                {
+                    alias: "example1",
+                    displayName: "example1",
+                    internalId: "example1",
+                    providerId: "example1",
+                    enabled: true,
+                    loginUrl: "https://someurl.com/login",
+                    iconClasses: "",
+                }
+            ]
+        },
+        url: {
+            loginResetCredentialsUrl: "",
+            registrationUrl: ""
+        },
+        realm: {
+            loginWithEmailAllowed: false,
+            rememberMe: false,
+            password: false,
+            resetPasswordAllowed: false,
+            registrationAllowed: false,
+        },
+        auth: {
+            selectedCredential: "",
+        },
+        registrationDisabled: true,
+        login: {
+            username: "",
+            rememberMe: "false",
+            password: "",
+        },
+        usernameHidden: true,
+        social: {
+            displayInfo: true,
+            providers: [],
+        }
+    }
+
+};
 
 export const { getKcContextMock } = createGetKcContextMock({
     kcContextExtension,
